@@ -1,0 +1,478 @@
+body {
+  width: 100%;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper{
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search_box{
+    position: relative;
+  }
+  
+  .search_box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid #24231F;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: #24231F;
+    outline: none;
+  }
+  
+  .fa-search{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    color: #CC4C6E;
+    font-size: 1rem;
+  }
+
+.support {
+    margin-left: 30px;
+}
+
+a {
+    color: #24231F;
+    text-decoration: none;
+}
+
+nav > ul {
+  height: 90px;
+}
+
+nav > ul > li {
+    text-align: center;
+    font: Bold 16px/14px Brandon Grotesque;
+    color: #24231F;
+    display: inline;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.current {
+   background-color: #F5F5F5;
+   border-bottom: 2px solid #24231F;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-around;
+  margin: 50px 0px 75px 0px;
+}
+
+.dimensions > ul > li {
+  text-align: left;
+  font: 18px Brandon Grotesque, sans-serif;
+  line-height: 24px;
+}
+
+.details > ul > li {
+  text-align: left;
+  font: 18px Brandon Grotesque, sans-serif;
+  line-height: 24px;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 225px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+}
+
+h1 {
+  text-align: center;
+  font: Bold 24px/36px Brandon Grotesque;
+}
+
+h2 {
+  text-align: center;
+  font: Bold 24px/36px Brandon Grotesque;
+  margin: 10px auto;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1024px;
+}
+
+.carousel {
+  width: calc(60%);
+  margin-right: 100px;
+}
+
+.carousel-image {
+  position: relative;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.accent-chairs {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.transparent-arrows {
+  position: absolute;
+  top: calc(45%);
+}
+
+.rotation {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.accent-chairs-info > h2 {
+  text-align: left;
+}
+
+.accent-chairs-info > p  {
+  font: 18px Brandon Grotesque, sans-serif;
+  line-height: 24px;
+}
+
+.accent-chairs-info > h1 {
+  text-align: left;
+  font: Bold 36px Brandon Grotesque;
+  margin: 10px 0px;
+}
+
+.swatch-wrapper {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.swatches {
+  width: 40px;
+  height: 40px;
+  background-color: #842C68;
+  border-radius: 50%;
+  margin: 10px 25px 0px 0px;
+}
+
+#add-to-cart {
+  width: 260px;
+  height: 50px;
+  background-color: #4CB3AA;
+  border: none;
+  margin-top: 30px;
+  color: white;
+  font: Bold 18px/12px Brandon Grotesque;
+}
+
+.sm-card {
+  width: 100px;
+  height: 50px;
+  background-color: #4CB3AA;
+  margin: 0px 10px;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.most-popular {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.filters {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.filters > button {
+  width: 220px;
+  height: 30px;
+  background: white;
+  border: 1px solid #24231F;
+  border-radius: 3px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+#display {
+  font: 14px Brandon Grotesque, sans-serif;
+}
+
+.filters > ul {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font: 14px Brandon Grotesque, sans-serif;
+  letter-spacing: 0.5em;
+}
+
+.pages {
+  font: Light 12px/12px Brandon Grotesque;
+}
+
+.card-image {
+ width: 30%;
+ margin-bottom: 40px;
+}
+
+.card-image > img {
+  width: 100%;
+  height: auto;
+}
+
+#sub-image {
+  width: 100%;
+}
+
+.section-card {
+  max-width: 1024px;
+  box-sizing: border-box;
+}
+
+.section-card > img {
+  width: 90%;
+}
+
+.product > p {
+  text-align: center;
+  font: 18px Brandon Grotesque, sans-serif;
+}
+
+.cozy-colors {
+  background-color: #4CB3AA;
+  padding: 45px;
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.living-room {
+  width: 1024px;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#vase {
+  width: calc(50%);
+}
+
+#living-room-img {
+  width: calc(60%);
+}
+
+.info {
+  width: calc(50%);
+  background-color: white;
+  padding: 45px;
+}
+
+.info > .living-room {
+  width: calc(40%);
+  background-color: white;
+  padding: 45px;
+}
+
+.info > h3 {
+  text-align: left;
+  font: Bold 45px/52px Brandon Grotesque;
+  margin-bottom: 24px;
+}
+
+.info > p {
+  text-align: left;
+  font: 18px Brandon Grotesque, sans-serif;
+  line-height: 24px;
+}
+
+footer {
+  background-color: #CC4C6E;
+  width: 100vw;
+  height: 50px;
+  bottom: 0;
+  margin-top: 50px;
+}
+
+.clearance {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#living-room {
+  width: calc(50%);
+}
+
+.clearance > .info {
+  background-color: #F3B541;
+  color: white;
+}
+
+#cta {
+  margin-top: 100px;
+  text-decoration: underline;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-around;
+  margin: 50px 0px;
+  font: Light 12px/12px Brandon Grotesque;
+}
+
+.company-info > ul > li {
+  font: 12px/12px Brandon Grotesque;
+  padding-top: 10px;
+}
+
+#list-header {
+  font: Bold 14px/12px Brandon Grotesque;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #24231F;
+}
+
+/* popup */
+
+.popup-modal {
+  background: rgba(0, 0, 0, 0.534);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: none;
+}
+
+.popup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1024px;
+  background-color: white;
+  margin: 120px auto;
+  position: relative;
+}
+
+.popup-info {
+  margin: 30px 80px 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-info > h1 {
+  text-align: left;
+  font: Bold 45px/52px Brandon Grotesque;
+  margin-bottom: 12px;
+}
+
+.popup-info > p {
+  text-align: left;
+  font: 16px Brandon Grotesque, sans-serif;
+  line-height: 24px;
+}
+
+.popup-info > label {
+  text-align: left;
+  font: Bold 18px Brandon Grotesque, sans-serif;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+#offer-image {
+  width: calc(40%);
+  height: auto;
+}
+
+.popup .close {
+  position: absolute;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  top: 10px;
+  right: 20px;
+}
+
+#email {
+  width: 80%;
+  padding: 10px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background: rgb(241, 241, 241);
+  border: 1px solid #24231F;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  color: #24231F;
+  outline: none;
+}
+
+.popup-info > button {
+  width: 260px;
+  height: 50px;
+  background-color: #4CB3AA;
+  border: none;
+  margin-top: 30px;
+  color: white;
+  font: Bold 18px/12px Brandon Grotesque;
+  margin-bottom: 20px;
+}
